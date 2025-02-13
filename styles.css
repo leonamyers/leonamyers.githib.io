@@ -1,1 +1,80 @@
 /* css styles */
+body {
+    background-color: #f4f1e1; /* Light beige background (earthy tone) */
+    color: #4b4b2f; /* Dark olive green text color */
+    font-family: 'Georgia', serif; /* Natural serif font */
+}
+
+/* Header styles */
+h1, h2, h3, h4, h5, h6 {
+    color: #5a4a32; /* Dark brown headers */
+    font-family: 'Arial', sans-serif;
+    margin-bottom: 20px;
+}
+
+/* Navbar styles */
+.navbar {
+    background-color: #7c6e5b; /* Earthy brown background for the navbar */
+}
+
+.navbar a {
+    color: #f0e6d2; /* Creamy white links */
+    font-weight: bold;
+}
+
+.navbar a:hover {
+    color: #f4a300; /* Warm yellow on hover */
+}
+
+/* Button styles */
+.btn {
+    background-color: #4f5b33; /* Olive green buttons */
+    color: #f4f1e1; /* Light text on buttons */
+    border-radius: 5px;
+}
+
+.btn:hover {
+    background-color: #8b9d47; /* Light olive green on hover */
+}
+
+/* Footer styles */
+footer {
+    background-color: #5b4e3b; /* Darker brown footer */
+    color: #f4f1e1; /* Creamy white text */
+    padding: 20px 0;
+    text-align: center;
+}
+
+/* Link hover effects */
+a {
+    color: #6c5b3d; /* Muted brownish green */
+}
+
+a:hover {
+    color: #ffcc00; /* Bright yellow on hover */
+}
+
+/* Table styles */
+table th {
+    background-color: #a8906b; /* Warm brownish-orange table headers */
+    color: #fff; /* White text for table headers */
+}
+
+table tr:nth-child(odd) {
+    background-color: #e7d8c9; /* Light brown for odd rows */
+}
+
+table tr:nth-child(even) {
+    background-color: #f4e1b2; /* Soft beige for even rows */
+}
+
+/* Customizing the links in your About section */
+.about-links a {
+    font-size: 1.2em;
+    margin-right: 10px;
+}
+
+.about-links i {
+    color: #4f5b33; /* Earthy green for icons */
+    margin-right: 8px;
+}

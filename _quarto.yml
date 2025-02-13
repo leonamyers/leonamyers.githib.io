@@ -3,13 +3,20 @@ project:
   output-dir: docs
 
 website:
-  title: "leonamyers.githib.io"
+  title: "Leona Myers"
   navbar:
     left:
-      - href: index.qmd
-        text: Home
-      - about.qmd
-
+      - text: "Home"
+        href: index.qmd
+      - text: "Resume"
+        href: resume.qmd
+      - text: "Projects"
+        href: projects.qmd
+  page-footer: 
+    left: "© 2025 Leona Myers. All rights reserved."
+    right: "Built with [Quarto](https://quarto.org/)"
+    center: "[GitHub](https://github.com/leonamyers) | [LinkedIn](https://www.linkedin.com/in/leona-myers-bb9471296/) | [Email](mailto:leona18@colostate.edu)"
+  
 format:
   html:
     theme: cosmo
@@ -18,3 +25,5 @@ format:
 
 editor: visual
 
+
+      

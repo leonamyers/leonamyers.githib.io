@@ -1,11 +1,41 @@
 ---
-title: "leonamyers.githib.io"
+title: "Leona Myers"
+
+website:
+  navbar:
+    left:
+      - text: "Home"
+        href: index.qmd
+        icon: "home"  
+      - text: "Resume"
+        href: resume.qmd
+        icon: "file-alt"  
+      - text: "Projects"
+        href: projects.qmd
+        icon: "project-diagram"  
+ 
+format:
+  html:
+    toc: false
+    css: styles.css
+
+image: "/media/profilepic.jpg"
+about: 
+  template: jolla
+  image-shape: round
+  image-width: 17em
+  links:
+    - text: "LinkedIn"
+      href: https://www.linkedin.com/in/leona-myers-bb9471296/
+      icon: "linkedin"  # Font Awesome LinkedIn icon
+    - text: "GitHub"
+      href: https://github.com/leonamyers
+      icon: "github"  # Font Awesome GitHub icon
+    - text: "Email"
+      href: mailto:leona18@colostate.edu
+      icon: "envelope"  # Font Awesome Email icon
 ---
 
-This is a Quarto website.
+### About Me
 
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
-
-```{r}
-1 + 1
-```
+I am a passionate and driven third-year student at Colorado State University, majoring in Ecosystem Science and Sustainability with a minor in Conservation Biology. My work is defined by empathy, curiosity, and a deep commitment to understanding ecological systems and conservation challenges. I am empathetic, striving to understand the interconnectedness of ecosystems and the people who interact with them. Passionate about environmental issues, I am deeply motivated to contribute to solutions for conservation and sustainability. Focused on creating meaningful, data-driven change, I approach my research with an impact-oriented mindset. I also believe in the power of collaboration, valuing teamwork and the exchange of ideas to make a greater impact. I am particularly interested in exploring the intersection of ecology, conservation, and sustainability through data science and citizen science. My research often seeks to understand how human activities influence ecosystems and aims to communicate scientific findings effectively to drive conservation outcomes. This platform is designed to connect with researchers, conservation professionals, and fellow students who share a passion for ecology and sustainability. I hope to engage with others working in areas like plant ecology, disturbance ecology, and phenological research, all with the goal of preserving our planet.

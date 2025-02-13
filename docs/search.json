@@ -1,10 +1,38 @@
 [
   {
+    "objectID": "resume.html",
+    "href": "resume.html",
+    "title": "Resume",
+    "section": "",
+    "text": "970.778.8471 | leonamyers18@gmail.com | https://www.linkedin.com/in/leona-myers |\n\n\nAn Ecosystem Science & Sustainability major with an interest in the field of conservation biology, while in school I have been involved in sustainability organizations and have worked in in outdoor leadership positions. In professional settings, I bring qualities of detail analysis and interpersonal skills in order to contribute to my ability to work as a motivated team member. I seek to utilize my expertise in organizations focused on ecological conservation and apply my core competencies which include:\n\nLifelong Coloradoan with familiarity with surrounding ecosystems\nStrong attention to detail with skills in data analysis\nEmpathetic and considerate worker with motivation and passion for ecosystem science\nAbility to work with a diverse group of people of all ages\n\n\n\n\n\n\nJunior, Ecosystem Science and Sustainability Major, Conservation Biology Minor GPA: 3.6\n\nRelevant coursework: Ecology, Physical Geography, Information Management for Sustainability, Biology of Organisms (with lab), Intro to Geospatial Science, Sustainability Science, Sustainable Watersheds, Intro to System Theory of Sustainability, Food, Environment, and Social Justice\n\n\n\n\nFreshman, Environmental Engineering\n\nRelevant coursework: Chemistry I (with lab), Chemistry II (with lab), Calculus I, Calculus II, Physics I, Environmental Ethics, Intro to Environmental Engineering Analysis\n\n\n\n\n\n\n\n\nKnowledge of plant species, including care requirements, growth patterns, and common issues.\nAided in reaching a sales goal of 100k.\nUnderstanding the environmental impact of plant care practices.\n\n\n\n\n\nGuided visitors using geography and navigation skills.\nManaged data using spreadsheets.\nAcquired knowledge of the local ecosystem.\n\n\n\n\n\nEffectively communicated with people of all ages.\nDemonstrated patience and understanding with children.\nPlanned and led outdoor activities, sharing a passion for nature.\n\n\n\n\n\nCollaborated as a team member, contributing to business success.\nInteracted with customers and co-workers, showcasing interpersonal skills.\n\n\n\n\n\nLearned about biodiversity and native species.\nTaught sustainability practices and environmental kindness.\nWorked with diverse groups of people of various ages and cultural backgrounds.\n\n\n\n\n\n\nNational Honor Society Member | August 2020 -May 2022\nSUPER (Skills for Undergraduate Participation in Ecological Research) | August 2024- Present"
+  },
+  {
+    "objectID": "resume.html#education",
+    "href": "resume.html#education",
+    "title": "Resume",
+    "section": "",
+    "text": "Junior, Ecosystem Science and Sustainability Major, Conservation Biology Minor GPA: 3.6\n\nRelevant coursework: Ecology, Physical Geography, Information Management for Sustainability, Biology of Organisms (with lab), Intro to Geospatial Science, Sustainability Science, Sustainable Watersheds, Intro to System Theory of Sustainability, Food, Environment, and Social Justice\n\n\n\n\nFreshman, Environmental Engineering\n\nRelevant coursework: Chemistry I (with lab), Chemistry II (with lab), Calculus I, Calculus II, Physics I, Environmental Ethics, Intro to Environmental Engineering Analysis"
+  },
+  {
+    "objectID": "resume.html#work-experience",
+    "href": "resume.html#work-experience",
+    "title": "Resume",
+    "section": "",
+    "text": "Knowledge of plant species, including care requirements, growth patterns, and common issues.\nAided in reaching a sales goal of 100k.\nUnderstanding the environmental impact of plant care practices.\n\n\n\n\n\nGuided visitors using geography and navigation skills.\nManaged data using spreadsheets.\nAcquired knowledge of the local ecosystem.\n\n\n\n\n\nEffectively communicated with people of all ages.\nDemonstrated patience and understanding with children.\nPlanned and led outdoor activities, sharing a passion for nature.\n\n\n\n\n\nCollaborated as a team member, contributing to business success.\nInteracted with customers and co-workers, showcasing interpersonal skills.\n\n\n\n\n\nLearned about biodiversity and native species.\nTaught sustainability practices and environmental kindness.\nWorked with diverse groups of people of various ages and cultural backgrounds."
+  },
+  {
+    "objectID": "resume.html#other-relevant-experience",
+    "href": "resume.html#other-relevant-experience",
+    "title": "Resume",
+    "section": "",
+    "text": "National Honor Society Member | August 2020 -May 2022\nSUPER (Skills for Undergraduate Participation in Ecological Research) | August 2024- Present"
+  },
+  {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "leonamyers.githib.io",
+    "title": "Leona Myers",
     "section": "",
-    "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites.\n\n1 + 1\n\n[1] 2"
+    "text": "About Me\nI am a passionate and driven third-year student at Colorado State University, majoring in Ecosystem Science and Sustainability with a minor in Conservation Biology. My work is defined by empathy, curiosity, and a deep commitment to understanding ecological systems and conservation challenges. I am empathetic, striving to understand the interconnectedness of ecosystems and the people who interact with them. Passionate about environmental issues, I am deeply motivated to contribute to solutions for conservation and sustainability. Focused on creating meaningful, data-driven change, I approach my research with an impact-oriented mindset. I also believe in the power of collaboration, valuing teamwork and the exchange of ideas to make a greater impact. I am particularly interested in exploring the intersection of ecology, conservation, and sustainability through data science and citizen science. My research often seeks to understand how human activities influence ecosystems and aims to communicate scientific findings effectively to drive conservation outcomes. This platform is designed to connect with researchers, conservation professionals, and fellow students who share a passion for ecology and sustainability. I hope to engage with others working in areas like plant ecology, disturbance ecology, and phenological research, all with the goal of preserving our planet."
   },
   {
     "objectID": "about.html",
@@ -12,5 +40,12 @@
     "title": "About",
     "section": "",
     "text": "About this site\n\n1 + 1\n\n[1] 2"
+  },
+  {
+    "objectID": "projects.html",
+    "href": "projects.html",
+    "title": "Projects",
+    "section": "",
+    "text": "In the Spring of 2025 I took a class Quantitative Reasoning class based in R. I wrote some code, and did some cool data science. Here is a collection of links!"
   }
 ]
