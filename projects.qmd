@@ -2,4 +2,68 @@
 title: "Projects"
 ---
 
-In the Spring of 2025 I took a class Quantitative Reasoning class based in R. I wrote some code, and did some cool data science. Here is a collection of links!
+In the Spring of 2025 I took a class Quantitative Reasoning class based in R. I wrote some code, and did some cool data science. Here is a collection of them!
+
+## Minnesota Tree Growth Lab
+
+I have learned from this lab how to manipulate and summarize data using the `dplyr` package. This included practicing key functions such as `filter()`, `select()`, `mutate()`, `group_by()`, and `summarise()` to efficiently explore and analyze datasets.
+
+## COVID Wrangling Lab
+
+I have learned from this lab how to apply data wrangling and visualization skills using a large-scale COVID-19 dataset curated by the New York Times. This included working with county-level data on cases and deaths across the full timeline of the pandemic, helping me better understand trends and patterns in public health data.
+
+```{r}
+library(magick)
+
+img <- image_read("lab3image.jpeg")
+
+print(img)
+```
+
+## LTER Network Data Lab
+
+I have learned from this lab how to perform basic statistical tests in R, including chi-square tests, t-tests, and correlation analyses. By working with data from the Long-Term Ecological Research (LTER) Network, I gained experience analyzing ecological data collected over long time periods and across broad spatial scales.
+
+```{r}
+library(magick)
+
+img <- image_read("lab4image.png")
+
+print(img)
+```
+
+## Machine Learning in Hydrology Lab
+
+I have learned from this lab how to apply predictive modeling techniques in hydrology using the `tidymodels` framework and the CAMELS dataset. This included gaining experience in building models to analyze catchment and meteorological data for large-scale hydrologic studies.
+
+```{r}
+library(magick)
+
+img <- image_read("lab6image.jpeg")
+
+print(img)
+```
+
+## ML Tuning Lab
+
+I have learned from this lab how to build a complete machine learning pipeline for a regression problem using the `tidymodels` package. This included understanding the importance of data splitting and applying each step of the modeling process in a structured workflow.
+
+```{r}
+library(magick)
+
+img <- image_read("lab8image.png")
+
+print(img)
+```
+
+## Distances and Projections Lab
+
+This lab focuses on understanding the structure and storage of `sf`, `sfc`, and `sfg` spatial features in R, along with key concepts like distance calculations and coordinate transformations. It also builds on skills in data wrangling, visualization, and documentation using Quarto and GitHub.
+
+```{r}
+library(magick)
+
+img <- image_read("lab10image.jpeg")
+
+print(img)
+```

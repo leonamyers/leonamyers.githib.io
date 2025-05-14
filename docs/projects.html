@@ -20,6 +20,40 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
+/* CSS for syntax highlighting */
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { display: inline-block; text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
 </style>
 
 
@@ -111,8 +145,19 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
-        
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#minnesota-tree-growth-lab" id="toc-minnesota-tree-growth-lab" class="nav-link active" data-scroll-target="#minnesota-tree-growth-lab">Minnesota Tree Growth Lab</a></li>
+  <li><a href="#covid-wrangling-lab" id="toc-covid-wrangling-lab" class="nav-link" data-scroll-target="#covid-wrangling-lab">COVID Wrangling Lab</a></li>
+  <li><a href="#lter-network-data-lab" id="toc-lter-network-data-lab" class="nav-link" data-scroll-target="#lter-network-data-lab">LTER Network Data Lab</a></li>
+  <li><a href="#machine-learning-in-hydrology-lab" id="toc-machine-learning-in-hydrology-lab" class="nav-link" data-scroll-target="#machine-learning-in-hydrology-lab">Machine Learning in Hydrology Lab</a></li>
+  <li><a href="#ml-tuning-lab" id="toc-ml-tuning-lab" class="nav-link" data-scroll-target="#ml-tuning-lab">ML Tuning Lab</a></li>
+  <li><a href="#distances-and-projections-lab" id="toc-distances-and-projections-lab" class="nav-link" data-scroll-target="#distances-and-projections-lab">Distances and Projections Lab</a></li>
+  </ul>
+</nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
@@ -136,9 +181,130 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>In the Spring of 2025 I took a class Quantitative Reasoning class based in R. I wrote some code, and did some cool data science. Here is a collection of links!</p>
+<p>In the Spring of 2025 I took a class Quantitative Reasoning class based in R. I wrote some code, and did some cool data science. Here is a collection of them!</p>
+<section id="minnesota-tree-growth-lab" class="level2">
+<h2 class="anchored" data-anchor-id="minnesota-tree-growth-lab">Minnesota Tree Growth Lab</h2>
+<p>I have learned from this lab how to manipulate and summarize data using the <code>dplyr</code> package. This included practicing key functions such as <code>filter()</code>, <code>select()</code>, <code>mutate()</code>, <code>group_by()</code>, and <code>summarise()</code> to efficiently explore and analyze datasets.</p>
+</section>
+<section id="covid-wrangling-lab" class="level2">
+<h2 class="anchored" data-anchor-id="covid-wrangling-lab">COVID Wrangling Lab</h2>
+<p>I have learned from this lab how to apply data wrangling and visualization skills using a large-scale COVID-19 dataset curated by the New York Times. This included working with county-level data on cases and deaths across the full timeline of the pandemic, helping me better understand trends and patterns in public health data.</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(magick)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stderr">
+<pre><code>Warning: package 'magick' was built under R version 4.4.3</code></pre>
+</div>
+<div class="cell-output cell-output-stderr">
+<pre><code>Linking to ImageMagick 6.9.12.98
+Enabled features: cairo, freetype, fftw, ghostscript, heic, lcms, pango, raw, rsvg, webp
+Disabled features: fontconfig, x11</code></pre>
+</div>
+<div class="sourceCode cell-code" id="cb4"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a>img <span class="ot">&lt;-</span> <span class="fu">image_read</span>(<span class="st">"lab3image.jpeg"</span>)</span>
+<span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-3"><a href="#cb4-3" aria-hidden="true" tabindex="-1"></a><span class="fu">print</span>(img)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>  format width height colorspace matte filesize density
+1   JPEG  1250    772       sRGB FALSE   294258   72x72</code></pre>
+</div>
+<div class="cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="projects_files/figure-html/unnamed-chunk-1-1.png" class="img-fluid figure-img" width="625"></p>
+</figure>
+</div>
+</div>
+</div>
+</section>
+<section id="lter-network-data-lab" class="level2">
+<h2 class="anchored" data-anchor-id="lter-network-data-lab">LTER Network Data Lab</h2>
+<p>I have learned from this lab how to perform basic statistical tests in R, including chi-square tests, t-tests, and correlation analyses. By working with data from the Long-Term Ecological Research (LTER) Network, I gained experience analyzing ecological data collected over long time periods and across broad spatial scales.</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb6"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(magick)</span>
+<span id="cb6-2"><a href="#cb6-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-3"><a href="#cb6-3" aria-hidden="true" tabindex="-1"></a>img <span class="ot">&lt;-</span> <span class="fu">image_read</span>(<span class="st">"lab4image.png"</span>)</span>
+<span id="cb6-4"><a href="#cb6-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-5"><a href="#cb6-5" aria-hidden="true" tabindex="-1"></a><span class="fu">print</span>(img)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>  format width height colorspace matte filesize density
+1    PNG  2400   1800       sRGB  TRUE   239264 118x118</code></pre>
+</div>
+<div class="cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="projects_files/figure-html/unnamed-chunk-2-1.png" class="img-fluid figure-img" width="1200"></p>
+</figure>
+</div>
+</div>
+</div>
+</section>
+<section id="machine-learning-in-hydrology-lab" class="level2">
+<h2 class="anchored" data-anchor-id="machine-learning-in-hydrology-lab">Machine Learning in Hydrology Lab</h2>
+<p>I have learned from this lab how to apply predictive modeling techniques in hydrology using the <code>tidymodels</code> framework and the CAMELS dataset. This included gaining experience in building models to analyze catchment and meteorological data for large-scale hydrologic studies.</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb8"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb8-1"><a href="#cb8-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(magick)</span>
+<span id="cb8-2"><a href="#cb8-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb8-3"><a href="#cb8-3" aria-hidden="true" tabindex="-1"></a>img <span class="ot">&lt;-</span> <span class="fu">image_read</span>(<span class="st">"lab6image.jpeg"</span>)</span>
+<span id="cb8-4"><a href="#cb8-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb8-5"><a href="#cb8-5" aria-hidden="true" tabindex="-1"></a><span class="fu">print</span>(img)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>  format width height colorspace matte filesize density
+1   JPEG  1250    772       sRGB FALSE   197516   72x72</code></pre>
+</div>
+<div class="cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="projects_files/figure-html/unnamed-chunk-3-1.png" class="img-fluid figure-img" width="625"></p>
+</figure>
+</div>
+</div>
+</div>
+</section>
+<section id="ml-tuning-lab" class="level2">
+<h2 class="anchored" data-anchor-id="ml-tuning-lab">ML Tuning Lab</h2>
+<p>I have learned from this lab how to build a complete machine learning pipeline for a regression problem using the <code>tidymodels</code> package. This included understanding the importance of data splitting and applying each step of the modeling process in a structured workflow.</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb10"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb10-1"><a href="#cb10-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(magick)</span>
+<span id="cb10-2"><a href="#cb10-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb10-3"><a href="#cb10-3" aria-hidden="true" tabindex="-1"></a>img <span class="ot">&lt;-</span> <span class="fu">image_read</span>(<span class="st">"lab8image.png"</span>)</span>
+<span id="cb10-4"><a href="#cb10-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb10-5"><a href="#cb10-5" aria-hidden="true" tabindex="-1"></a><span class="fu">print</span>(img)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>  format width height colorspace matte filesize density
+1    PNG   895    624       sRGB  TRUE    50847   38x38</code></pre>
+</div>
+<div class="cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="projects_files/figure-html/unnamed-chunk-4-1.png" class="img-fluid figure-img" width="448"></p>
+</figure>
+</div>
+</div>
+</div>
+</section>
+<section id="distances-and-projections-lab" class="level2">
+<h2 class="anchored" data-anchor-id="distances-and-projections-lab">Distances and Projections Lab</h2>
+<p>This lab focuses on understanding the structure and storage of <code>sf</code>, <code>sfc</code>, and <code>sfg</code> spatial features in R, along with key concepts like distance calculations and coordinate transformations. It also builds on skills in data wrangling, visualization, and documentation using Quarto and GitHub.</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb12"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb12-1"><a href="#cb12-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(magick)</span>
+<span id="cb12-2"><a href="#cb12-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb12-3"><a href="#cb12-3" aria-hidden="true" tabindex="-1"></a>img <span class="ot">&lt;-</span> <span class="fu">image_read</span>(<span class="st">"lab10image.jpeg"</span>)</span>
+<span id="cb12-4"><a href="#cb12-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb12-5"><a href="#cb12-5" aria-hidden="true" tabindex="-1"></a><span class="fu">print</span>(img)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>  format width height colorspace matte filesize density
+1   JPEG  1250    772       sRGB FALSE   216431   72x72</code></pre>
+</div>
+<div class="cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="projects_files/figure-html/unnamed-chunk-5-1.png" class="img-fluid figure-img" width="625"></p>
+</figure>
+</div>
+</div>
+</div>
 
 
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">

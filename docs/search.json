@@ -46,6 +46,48 @@
     "href": "projects.html",
     "title": "Projects",
     "section": "",
-    "text": "In the Spring of 2025 I took a class Quantitative Reasoning class based in R. I wrote some code, and did some cool data science. Here is a collection of links!"
+    "text": "In the Spring of 2025 I took a class Quantitative Reasoning class based in R. I wrote some code, and did some cool data science. Here is a collection of them!"
+  },
+  {
+    "objectID": "projects.html#minnesota-tree-growth-lab",
+    "href": "projects.html#minnesota-tree-growth-lab",
+    "title": "Projects",
+    "section": "Minnesota Tree Growth Lab",
+    "text": "Minnesota Tree Growth Lab\nI have learned from this lab how to manipulate and summarize data using the dplyr package. This included practicing key functions such as filter(), select(), mutate(), group_by(), and summarise() to efficiently explore and analyze datasets."
+  },
+  {
+    "objectID": "projects.html#covid-wrangling-lab",
+    "href": "projects.html#covid-wrangling-lab",
+    "title": "Projects",
+    "section": "COVID Wrangling Lab",
+    "text": "COVID Wrangling Lab\nI have learned from this lab how to apply data wrangling and visualization skills using a large-scale COVID-19 dataset curated by the New York Times. This included working with county-level data on cases and deaths across the full timeline of the pandemic, helping me better understand trends and patterns in public health data.\n\nlibrary(magick)\n\nWarning: package 'magick' was built under R version 4.4.3\n\n\nLinking to ImageMagick 6.9.12.98\nEnabled features: cairo, freetype, fftw, ghostscript, heic, lcms, pango, raw, rsvg, webp\nDisabled features: fontconfig, x11\n\nimg &lt;- image_read(\"lab3image.jpeg\")\n\nprint(img)\n\n  format width height colorspace matte filesize density\n1   JPEG  1250    772       sRGB FALSE   294258   72x72"
+  },
+  {
+    "objectID": "projects.html#lter-network-data-lab",
+    "href": "projects.html#lter-network-data-lab",
+    "title": "Projects",
+    "section": "LTER Network Data Lab",
+    "text": "LTER Network Data Lab\nI have learned from this lab how to perform basic statistical tests in R, including chi-square tests, t-tests, and correlation analyses. By working with data from the Long-Term Ecological Research (LTER) Network, I gained experience analyzing ecological data collected over long time periods and across broad spatial scales.\n\nlibrary(magick)\n\nimg &lt;- image_read(\"lab4image.png\")\n\nprint(img)\n\n  format width height colorspace matte filesize density\n1    PNG  2400   1800       sRGB  TRUE   239264 118x118"
+  },
+  {
+    "objectID": "projects.html#machine-learning-in-hydrology-lab",
+    "href": "projects.html#machine-learning-in-hydrology-lab",
+    "title": "Projects",
+    "section": "Machine Learning in Hydrology Lab",
+    "text": "Machine Learning in Hydrology Lab\nI have learned from this lab how to apply predictive modeling techniques in hydrology using the tidymodels framework and the CAMELS dataset. This included gaining experience in building models to analyze catchment and meteorological data for large-scale hydrologic studies.\n\nlibrary(magick)\n\nimg &lt;- image_read(\"lab6image.jpeg\")\n\nprint(img)\n\n  format width height colorspace matte filesize density\n1   JPEG  1250    772       sRGB FALSE   197516   72x72"
+  },
+  {
+    "objectID": "projects.html#ml-tuning-lab",
+    "href": "projects.html#ml-tuning-lab",
+    "title": "Projects",
+    "section": "ML Tuning Lab",
+    "text": "ML Tuning Lab\nI have learned from this lab how to build a complete machine learning pipeline for a regression problem using the tidymodels package. This included understanding the importance of data splitting and applying each step of the modeling process in a structured workflow.\n\nlibrary(magick)\n\nimg &lt;- image_read(\"lab8image.png\")\n\nprint(img)\n\n  format width height colorspace matte filesize density\n1    PNG   895    624       sRGB  TRUE    50847   38x38"
+  },
+  {
+    "objectID": "projects.html#distances-and-projections-lab",
+    "href": "projects.html#distances-and-projections-lab",
+    "title": "Projects",
+    "section": "Distances and Projections Lab",
+    "text": "Distances and Projections Lab\nThis lab focuses on understanding the structure and storage of sf, sfc, and sfg spatial features in R, along with key concepts like distance calculations and coordinate transformations. It also builds on skills in data wrangling, visualization, and documentation using Quarto and GitHub.\n\nlibrary(magick)\n\nimg &lt;- image_read(\"lab10image.jpeg\")\n\nprint(img)\n\n  format width height colorspace matte filesize density\n1   JPEG  1250    772       sRGB FALSE   216431   72x72"
   }
 ]
